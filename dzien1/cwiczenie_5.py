@@ -1,0 +1,6 @@
+ma = input('Miasto A: ')
+mb = input('Miasto B: ')
+d = int(input(f'Dystans {ma}-{mb}: '))
+cp = float(input('Cena Paliwa: '))
+sp = float(input('Spalanie na 100 km: '))
+print(f'Koszt przejazdu {ma}-{mb} to {round(d/100*cp*sp, 3)} PLN')
