@@ -2,7 +2,7 @@
 """
 Utwórz zmienne a i b, przypisz im jakieś wartości liczbowe
 utwórz zmienną pole_prostokąta i przypisz do niej formułę liczbową.
-
+ffgit s
 """
 
 
