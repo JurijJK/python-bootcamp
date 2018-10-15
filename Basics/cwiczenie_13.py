@@ -11,6 +11,7 @@ while i < 7:
         break
 
     suma_temperatur += float(d)
+    i = i+1
 
 print("średnia temperatura to:", round(suma_temperatur/i,2))
 
