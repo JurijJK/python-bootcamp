@@ -28,6 +28,27 @@ class CashMachine:
         return bills_to_withdraw
 
 
+def main():
+    bankomat = CashMachine()
+    operacja = input("Podaj typ operacji w - wpłata, y - wypłata: ")
+
+    if operacja == "w":
+        banknoty = input("Podaj banknoty do wpłaty - wpisz je rozdzielając spacją ")
+        banknoty = banknoty.split()
+        banknoty = [int(x) for x in banknoty]
+        bankomat.put_money(banknoty)
+
+    if operacja == "y":
+        kwota_do_wypłaty = int(input("Jaką kwotę chcesz wypłacić? "))
+        wyplacone = kwota_do_wypłaty
+
+
+
+
+
+
+main()
+
 
 
 
